@@ -5,8 +5,10 @@ exception의 중요성:
 
 
 # English
-
 exception Handling:
 - [ArjanCodes: Exception handling tips in Python ⚠ Write better Python code part 7](https://youtu.be/ZsvftkbbrR0)
-    - 자세한 exception Handling, retry, exception(logging)
+    - Python Exception Handling in detail
+    - retry, exception(logging) decorator
+
+
 

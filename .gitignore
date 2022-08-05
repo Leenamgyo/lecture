@@ -1,5 +1,7 @@
+# virtual enviroment
 env
 venv
+
 .vscode
 .history
 dist

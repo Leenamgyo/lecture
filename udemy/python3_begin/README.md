@@ -1,3 +1,5 @@
+# [Udemy] 파이썬 Python 3 입문 - 미국 실리콘밸리 스타일의 코드로 실전 앱 개발 준비하기 
+
 # ENV
 - version: python 3.6
 - virtual_env: anaconda 
@@ -9,3 +11,4 @@
 
 # URL
 https://www.udemy.com/share/101xJc3@UgkF8fHvYF2N4zblqX4YpmaLnDSkBuHVdzr1SVTGT1SnYiGrjAa_s_ANTGc0AZhq_w==/
+

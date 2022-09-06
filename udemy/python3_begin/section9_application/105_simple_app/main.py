@@ -44,6 +44,20 @@ restaurant = input()
 with open(os.path.join(FILE_PATH, FILE_NAME), mode='a') as csv_file:
     writer = csv.DictWriter(csv_file, fieldnames=[field.value for field in CsvField])
     writer.writerow({CsvField.NAME.value: restaurant, CsvField.COUNT.value: 1})
-    
+
 print(f'{name}씨, 감사합니다.')
 print('좋은 하루 보내세요! 안녕히가세요')
+ 
+
+
+
+#1. recommand restrauant
+# if yes/no 
+#   yes == count +1
+#   no or else == Nothing
+
+#2. 좋아하는 레스토랑 질문
+
+# 인사 
+
+

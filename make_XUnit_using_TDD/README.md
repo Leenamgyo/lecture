@@ -1,18 +1,17 @@
-## Getting Started
+# JUnit의 첫 버전
+JUnit의 첫 버전은 Erich Gamma와 Kent Beck이 함께 97년 OOPSLA에 참여하기 위해서 취리히에서 애틀란타로 가는 비행기 안에서 작성되었다고 한다. 그 짧은 시간 동안(그것도 노트북 배터리의 제한을 받아가면서) JUnit을 개발했다는 것이 잘 믿어지지 않을지 모르지만 사실이다.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# JUnit의 기원
+JUnit의 기원은 Kent Beck이 94년 즈음부터 만들어 써오던 SUnit이다. SUnit은 사실 어떤 특정 프레임워크를 지칭하는 것은 아니다. 스타일과 구조는 비슷할지 몰라도 KentBeck은 매 프로젝트마다 그에 적합하게 테스팅 프레임워크를 만들어서 사용했고 다른 개발자들도 그렇게 하기를 원했다.
 
-## Folder Structure
+# XUnit의 개발 목적 
+XUnit을 만들어보는 것은 TDD의 학습 자체에도 매우 큰 도움이 된다. 또한 XUnit에 나타난 다양한 디자인/구현 패턴에 대한 이해와 적용훈련도 될 수 있따. 내가 스프링의 소스를 보면서 Rod Jhonson의 초기 J2EE 책을 보면서 느꼈던 패턴의 적용에 대한 매력을 사실 JUnit 하나에서 거의 그대로 느낄 수 있었다. 
 
-The workspace contains two folders by default, where:
+# TDD의 사용 이유
+토비는 TDD를 사용/연구하면서 열광과 회의를 겪었다고 한다. TDD를 하자고 하진 않고 테스트를 진행하자고 한다. 현재는 TDD를 무조건적으로 도입하지 않고 주로 어려운 로직을 만들거나 금융 계산과 같은 까다로운 로직을 할 때 TDD를 사용한다고 한다. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# TDD사용 방법
+1. 빠르게 실패하는 프로젝트를 만들어본다.
+2. 빠르게 실패하는 프로젝트를 성공시킨다.
+3. 성공한 프로젝트의 코드개선을 진행한다. 
+※ TDD에 따라 할 일을 정하고 시작한다. (todo.txt)
